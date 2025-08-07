@@ -1,6 +1,6 @@
-# File Management System
+# CloudStore
 
-A robust file management system built with Spring Boot and AWS S3, featuring secure file storage and user management.
+A modern cloud storage platform built with Spring Boot and AWS S3, offering seamless file management and secure user access.
 
 ## Technologies Used
 
