@@ -104,7 +104,4 @@ A modern cloud storage platform built with Spring Boot and AWS S3, offering seam
 
 ## Contact
 
-[Your Name]
-[Your Email]
-[Your LinkedIn]
-[Your GitHub]
+Email : dharmanarisetty@gmail.com
