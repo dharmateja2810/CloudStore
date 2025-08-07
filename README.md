@@ -67,8 +67,8 @@ A modern cloud storage platform built with Spring Boot and AWS S3, offering seam
 2. **Setup Steps:**
    ```bash
    # Clone the repository
-   git clone <your-repo-url>
-   cd file-manager
+   git clone https://github.com/dharmateja2810/CloudStore
+   cd CloudStore
 
    # Create .env file and add your configuration
    cp .env.example .env
