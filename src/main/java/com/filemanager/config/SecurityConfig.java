@@ -30,14 +30,13 @@ public class SecurityConfig {
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(
+                    antMatcher("/"),
+                    antMatcher("/index"),
                     antMatcher("/login"),
                     antMatcher("/register"),
                     antMatcher("/css/**"),
                     antMatcher("/js/**"),
-                    antMatcher("/files/**"),
-                    antMatcher("/download/**"),
-                    antMatcher("/view/**"),
-                    antMatcher("/"),
+                    antMatcher("/error"),
                     antMatcher("/public/**")
                 ).permitAll()
                 .anyRequest().authenticated()
